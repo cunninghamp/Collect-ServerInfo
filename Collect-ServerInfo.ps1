@@ -32,6 +32,7 @@ Find me on:
 
 Change Log
 V1.00, 20/04/2015 - First release
+V1.01, 01/05/2015 - Updated with better error handling
 #>
 
 
