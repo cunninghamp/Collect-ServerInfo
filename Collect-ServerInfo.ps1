@@ -20,6 +20,11 @@ Collect information about a single server.
 "SERVER1","SERVER2","SERVER3" | .\Collect-ServerInfo.ps1
 Collect information about multiple servers.
 
+.EXAMPLE
+Get-ADComputer -Filter {OperatingSystem -Like "Windows Server*"} | %{.\Collect-ServerInfo.ps1 $_.DNSHostName}
+Collects information about all servers in Active Directory.
+
+
 .NOTES
 Written by: Paul Cunningham
 
