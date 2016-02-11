@@ -26,20 +26,22 @@ Collects information about all servers in Active Directory.
 
 
 .NOTES
-Written by: Paul Cunningham
+Written by Paul Cunningham
+Technical Consultant/Director at LockLAN Systems Pty Ltd - https://www.locklan.com.au
+Microsoft MVP, Office Servers and Services - http://exchangeserverpro.com
 
-Find me on:
+You can also find me on:
 
-* My Blog:	http://paulcunningham.me
-* Twitter:	https://twitter.com/paulcunningham
-* LinkedIn:	http://au.linkedin.com/in/cunninghamp/
-* Github:	https://github.com/cunninghamp
+* Twitter: https://twitter.com/paulcunningham
+* Twitter: https://twitter.com/ExchServPro
+* LinkedIn: http://au.linkedin.com/in/cunninghamp/
+* Github: https://github.com/cunninghamp
 
 License:
 
 The MIT License (MIT)
 
-Copyright (c) 2015 Paul Cunningham
+Copyright (c) 2016 Paul Cunningham
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
