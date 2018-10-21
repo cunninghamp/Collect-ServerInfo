@@ -3,10 +3,10 @@ This PowerShell script runs a series of WMI and other queries to collect informa
 
 Each server's results are output to a HTML file.
 
-##Parameters
+## Parameters
 - **-Verbose**, See more detailed progress as the script is running.
 
-##Examples
+## Examples
 
 Collect information about a single server named SERVER1.
 ```
@@ -23,18 +23,16 @@ Collect information about all servers in Active Directory.
 Get-ADComputer -Filter {OperatingSystem -Like "Windows Server*"} | %{.\Collect-ServerInfo.ps1 $_.DNSHostName}
 ```
 
-##Download
+## Download
 
 Download the latest release from [Github](https://github.com/cunninghamp/Collect-ServerInfo/releases/latest) or from the [TechNet Script Gallery](https://gallery.technet.microsoft.com/scriptcenter/PowerShell-Collect-Server-089f1da3).
 
-##Credits
-Written by Paul Cunningham
-Technical Consultant/Director at [LockLAN Systems Pty Ltd](https://www.locklan.com.au)
-Microsoft MVP, [Office Servers and Services](http://exchangeserverpro.com)
+## Credits
+Written by: Paul Cunningham
 
-You can also find me on:
+Find me on:
 
-* Twitter: https://twitter.com/paulcunningham
-* Twitter: https://twitter.com/ExchServPro
-* LinkedIn:	http://au.linkedin.com/in/cunninghamp/
+* My Blog:	https://paulcunningham.me
+* Twitter:	https://twitter.com/paulcunningham
+* LinkedIn:	https://au.linkedin.com/in/cunninghamp/
 * Github:	https://github.com/cunninghamp
