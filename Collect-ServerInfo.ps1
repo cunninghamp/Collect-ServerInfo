@@ -26,16 +26,14 @@ Collects information about all servers in Active Directory.
 
 
 .NOTES
-Written by Paul Cunningham
-Technical Consultant/Director at LockLAN Systems Pty Ltd - https://www.locklan.com.au
-Microsoft MVP, Office Servers and Services - http://exchangeserverpro.com
+Written by: Paul Cunningham
 
-You can also find me on:
+Find me on:
 
-* Twitter: https://twitter.com/paulcunningham
-* Twitter: https://twitter.com/ExchServPro
-* LinkedIn: http://au.linkedin.com/in/cunninghamp/
-* Github: https://github.com/cunninghamp
+* My Blog:	https://paulcunningham.me
+* Twitter:	https://twitter.com/paulcunningham
+* LinkedIn:	https://au.linkedin.com/in/cunninghamp/
+* Github:	https://github.com/cunninghamp
 
 License:
 
