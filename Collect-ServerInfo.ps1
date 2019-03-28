@@ -417,6 +417,30 @@ Process
             $htmlbody += $spacer
         }
        
+        #---------------------------------------------------------------------
+        # Collect services information and covert to HTML fragment
+	# Added by Nicolas Nowinski (nicknow@nicknow.net): Mar 28 2019
+        #---------------------------------------------------------------------		
+		
+        $subhead = "<h3>Computer Services Information</h3>"
+        $htmlbody += $subhead
+		
+	Write-Verbose "Collecting services information"
+
+	try
+	{
+            $services = Get-WmiObject Win32_Service -ComputerName $ComputerName -ErrorAction STOP  | Select-Object Name,StartName,State,StartMode | Sort-Object StartName,State
+
+            $htmlbody += $services | ConvertTo-Html -Fragment
+            $htmlbody += $spacer 
+        
+        }
+        catch
+        {
+            Write-Warning $_.Exception.Message
+            $htmlbody += "<p>An error was encountered. $($_.Exception.Message)</p>"
+            $htmlbody += $spacer
+        }
 
         #---------------------------------------------------------------------
         # Generate the HTML report and output to file
