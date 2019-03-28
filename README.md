@@ -36,3 +36,6 @@ Find me on:
 * Twitter:	https://twitter.com/paulcunningham
 * LinkedIn:	https://au.linkedin.com/in/cunninghamp/
 * Github:	https://github.com/cunninghamp
+
+Additional contributions by:
+* [Nicolas Nowinski](https://github.com/nicknow)
