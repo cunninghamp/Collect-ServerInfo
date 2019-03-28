@@ -429,7 +429,7 @@ Process
 
 	try
 	{
-            $services = Get-WmiObject Win32_Service -ComputerName $ComputerName -ErrorAction STOP  | Select-Object Name,StartName,State,StartMode | Sort-Object StartName,State
+            $services = Get-WmiObject Win32_Service -ComputerName $ComputerName -ErrorAction STOP  | Select-Object Name,StartName,State,StartMode | Sort-Object Name
 
             $htmlbody += $services | ConvertTo-Html -Fragment
             $htmlbody += $spacer 
